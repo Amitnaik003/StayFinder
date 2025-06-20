@@ -34,3 +34,5 @@ cd stayfinder-backend
 npm install
 npm run dev
 ```
+
+![image](https://github.com/user-attachments/assets/8444c50d-2377-4f7c-9ca9-6025a6dc15ab)
