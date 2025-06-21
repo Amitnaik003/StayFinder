@@ -10,7 +10,7 @@ router.get("/", async (req, res) => {
     const { location, minPrice, maxPrice } = req.query; 
 
     const filter = {};
-    if (location) {
+    if (location) { 
       filter.location = { $regex: location, $options: "i" }; // Case-insensitive search
     }
     if (minPrice) {
