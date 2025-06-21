@@ -2,7 +2,7 @@ import express from "express";
 import Listing from "../models/Listing.js";
 import { verifyToken } from "../middleware/verifyToken.js";
 
-const router = express.Router();
+const router = express.Router(); 
 
 // GET all listings
 router.get("/", async (req, res) => {
