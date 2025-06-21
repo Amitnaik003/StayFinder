@@ -7,7 +7,7 @@ const router = express.Router();
 // GET all listings
 router.get("/", async (req, res) => {
   try {
-    const { location, minPrice, maxPrice } = req.query;
+    const { location, minPrice, maxPrice } = req.query; 
 
     const filter = {};
     if (location) {
