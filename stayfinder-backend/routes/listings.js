@@ -13,7 +13,7 @@ router.get("/", async (req, res) => {
     if (location) { 
       filter.location = { $regex: location, $options: "i" }; // Case-insensitive search
     } 
-    if (minPrice) {
+    if (minPrice) { 
       filter.price = { ...filter.price, $gte: Number(minPrice) }; // Minimum price
     }
     if (maxPrice) {
