@@ -7,7 +7,7 @@ import HostDashboard from "./pages/HostDashboard";
 import PrivateRoute from "./components/PrivateRoute";
 import AddListing from "./pages/AddListing";
 import MyBookings from "./pages/MyBookings"; 
-import EditListing from "./pages/EditListing";
+import EditListing from "./pages/EditListing"; 
 import CreateListing from "./pages/CreateListing";
 
 function App() {
