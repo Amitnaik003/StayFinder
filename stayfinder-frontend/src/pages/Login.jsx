@@ -2,7 +2,7 @@ import { useState } from "react";
 import API from "../api/axios";
 import { useNavigate } from "react-router-dom";
 import loginBg from "../assets/loginbg.jpg";
-
+ 
 export default function Login() {
   const [form, setForm] = useState({ email: "", password: "" }); 
   const [error, setError] = useState(""); 
