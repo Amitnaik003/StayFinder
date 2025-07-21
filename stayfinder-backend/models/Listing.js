@@ -7,7 +7,7 @@ const listingSchema = new mongoose.Schema({
   location: { type: String, required: true },
   image: { type: String, required: true },  
   owner: { type: mongoose.Schema.Types.ObjectId, ref: "User", required: true },
-  latitude: { type: Number, required: true }, 
+  latitude: { type: Number, required: true },  
   longitude: { type: Number, required: true },
   availability: [{ type: Date, required: true }], // Array of available dates
 });
