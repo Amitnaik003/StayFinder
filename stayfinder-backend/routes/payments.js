@@ -2,7 +2,7 @@ import express from "express";
 import Stripe from "stripe";
 
 const router = express.Router(); 
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY); // Use environment variable 
+const stripe = new Stripe(process.env.STRIPE_SECRET_KEY); // Use environment variable  
 
 router.post("/", async (req, res) => {
   try {
