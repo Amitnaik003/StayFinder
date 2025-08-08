@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import API from "../api/axios";  
-import { DateRange } from "react-date-range";
+import { DateRange } from "react-date-range"; 
 import "react-date-range/dist/styles.css";
 import "react-date-range/dist/theme/default.css";
 
