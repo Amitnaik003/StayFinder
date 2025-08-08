@@ -9,7 +9,7 @@ export default function EditListing() {
   const { id } = useParams();
   const navigate = useNavigate();
   const [listing, setListing] = useState(null);
-  const [formData, setFormData] = useState({
+  const [formData, setFormData] = useState({ 
     title: "",
     description: "",
     price: "",
