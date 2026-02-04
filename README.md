@@ -14,7 +14,7 @@ StayFinder is a full-stack web application inspired by Airbnb, where users can l
 - **Responsive Design:** Clean, modern UI inspired by Airbnb.
 
 ## Tech Stack
-
+    
 - **Frontend:** React, Vite, React Router, Axios, date-fns
 - **Backend:** Node.js, Express, MongoDB (see `/stayfinder-backend`)
 - **Styling:** Custom CSS (with some Tailwind), responsive layout
@@ -31,6 +31,13 @@ npm run dev
 ### Backend
 ```bash
 cd stayfinder-backend
+npm install
+npm run dev
+```
+
+### Frontend
+```bash
+cd stayfinder-frontend
 npm install
 npm run dev
 ```

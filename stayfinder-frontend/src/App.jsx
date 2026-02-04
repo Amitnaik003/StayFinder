@@ -9,6 +9,7 @@ import AddListing from "./pages/AddListing";
 import MyBookings from "./pages/MyBookings";
 import EditListing from "./pages/EditListing";
 import CreateListing from "./pages/CreateListing";
+import MyProfile from "./pages/MyProfile";
 
 function App() {
   return (
@@ -65,6 +66,8 @@ function App() {
             </PrivateRoute>
           }
         />
+        <Route path="/mybookings" element={<MyBookings />} />
+        <Route path="/myprofile" element={<MyProfile />} />
       </Routes>
     </Router>
   );
