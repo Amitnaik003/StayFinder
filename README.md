@@ -35,9 +35,13 @@ npm install
 npm run dev
 ```
 
+<<<<<<< HEAD
 ### Frontend
 ```bash
 cd stayfinder-frontend
 npm install
 npm run dev
 ```
+=======
+![image](https://github.com/user-attachments/assets/8444c50d-2377-4f7c-9ca9-6025a6dc15ab)
+>>>>>>> 0db389cb806c0cb661316ba35fd9119703ae1542

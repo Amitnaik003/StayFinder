@@ -2,18 +2,18 @@ import express from "express";
 import Listing from "../models/Listing.js";
 import { verifyToken } from "../middleware/verifyToken.js";
 
-const router = express.Router();
+const router = express.Router(); 
 
 // GET all listings
 router.get("/", async (req, res) => {
   try {
-    const { location, minPrice, maxPrice } = req.query;
+    const { location, minPrice, maxPrice } = req.query; 
 
-    const filter = {};
-    if (location) {
+    const filter = {};  
+    if (location) { 
       filter.location = { $regex: location, $options: "i" }; // Case-insensitive search
-    }
-    if (minPrice) {
+    } 
+    if (minPrice) { 
       filter.price = { ...filter.price, $gte: Number(minPrice) }; // Minimum price
     }
     if (maxPrice) {

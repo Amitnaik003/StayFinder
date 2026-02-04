@@ -1,24 +1,24 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
+import Home from "./pages/Home";  
 import Login from "./pages/Login";
-import Register from "./pages/Register";
-import ListingDetail from "./pages/ListingDetail";
+import Register from "./pages/Register";  
+import ListingDetail from "./pages/ListingDetail";  
 import HostDashboard from "./pages/HostDashboard";
 import PrivateRoute from "./components/PrivateRoute";
-import AddListing from "./pages/AddListing";
-import MyBookings from "./pages/MyBookings";
-import EditListing from "./pages/EditListing";
+import AddListing from "./pages/AddListing";   
+import MyBookings from "./pages/MyBookings";  
+import EditListing from "./pages/EditListing"; 
 import CreateListing from "./pages/CreateListing";
 import MyProfile from "./pages/MyProfile";
 
 function App() {
-  return (
+  return ( 
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/login" element={<Login />} />
+        <Route path="/" element={<Home />} /> 
+        <Route path="/login" element={<Login />} /> 
         <Route path="/register" element={<Register />} />
-        <Route
+        <Route 
           path="/listing/:id"
           element={
             <PrivateRoute>
